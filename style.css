@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    --twitter-color:rgba(29,161,242,1.00);
+    --border-color: rgba(219, 219, 219, 0.699);
+    
+}
+
+
+
+body{
+    padding: 0px 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns:  minmax(90px, 300px) minmax(300px, 600px) minmax(0px, 300px);
+    justify-content: center;
+    height: 1094px;
+}
+@media screen and (max-width: 900px){
+   
+    .right-column, .right-column label, .right-column content {
+        display: none;
+        border: none;
+    }
+}
+/* Nav */
+nav {
+    text-align: center;
+}
+
+
+
+ nav li{
+    position: relative;
+    display: block;
+    height: 50px;
+    margin-bottom: 10px;
+    
+} 
+
+ nav img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+nav a{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: var(--twitter-color);
+    padding: 15px;
+    border-radius: 25px;
+    width: 220px;
+    margin-left: 40px;
+    color: white;
+    
+}
+
+
+
+
+
+/* Global */
+
+li{
+    display: inline-block;
+}
+ul{
+    margin-top: 20px;
+}
+
+
+ h1, h3, p, input{
+    display: inline-block;
+}
+
+
+/* Main */
+
+.main-column{
+    display: grid;
+    grid-template-rows: 53px 170px 578px;
+    padding: 10px 0px;
+    margin-right: 20px;
+    border: 1px solid rgb(196, 196, 196);
+    border-top: none;
+}
+
+/* Content One */
+
+.main-nav{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+
+
+}
+
+span{
+    text-align: end;
+    padding: 6px;
+}
+
+/* Content Two */
+
+.post-status{
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: 70px 1fr;
+    padding-left: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.text-area{
+    margin: 10px 0px 20px 0px;
+    border: none;
+    height: 100px;
+    font-size: 2rem;
+}
+
+form{
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    align-items: center;
+    margin: 0px 20px;
+    
+}
+
+.button-container{
+    display: grid;
+    justify-content: end;
+    margin-bottom: 20px;
+
+}
+.main-column button{
+    background-color: lightskyblue;
+    color: white;
+    width: 70px;
+    font-size: 1rem;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+
+/* Content Three */
+
+
+.icons li{
+    display: inline-block;
+}
+
+.card-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    overflow-y: scroll;
+    overscroll-behavior: none;
+    height: 700px;
+
+}
+.card{
+   display: grid;
+   grid-template-columns: 70px 1fr;
+   grid-template-rows: 1fr;
+   padding-bottom: 10px;
+   border: 1px solid var(--border-color);
+   padding-left: 20px;
+   border-left: none;
+   border-right: none;
+   
+}
+
+
+/* Right Column */
+
+.right-column{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.right-column li{
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.right-column p{
+    display: block;
+}
+
+.search input{
+    position: relative;
+    text-align: start;
+    padding-left: 60px;
+    border-radius: 20px;
+    font-size: 1rem;
+    height: 40px;
+    width: 100%;
+}
+
+/* Icons */
+
+.twitter-home{
+    
+   fill: var(--twitter-color);
+    
+}
+
+.icon{
+    position: absolute;
+    left: 60px;
+   width: 30px;
+
+}
+
+.search-icon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 20px;
+}
+
+.main-icon{
+    position: absolute;
+    width: 25px;
+    bottom: 15px;
+    right: 15px;
+    fill: var(--twitter-color);
+    
+}
+
+.small-icon{
+    right: 35px;
+    top: 0;
+    position: absolute;
+    width: 17px;
+
+}
+.upload{
+    top: 0px;
+}
+
+li .h3-active{
+    color: var(--twitter-color);
+    
+}
+li h3{
+    margin-top: 5px;
+}
+
+.card-icon-container{
+    margin-right: 70px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.icon-row{
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+}
+
+label{
+    position: relative;
+}
+
+.profile-info{
+    margin-top: 320px;
+}
+.profile-image{
+    width: 50px;
+    border-radius: 50%;
+    
+    margin-right: 20px;
+}
+.post-status .profile-image{
+   width: 60px;
+   margin: 10px;
+}
+
+.user-profile-info{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-left: 40px;
+    justify-content: start;
+    align-items: center;
+}
+.align{
+    display: block;
+    text-align: start;
+}
