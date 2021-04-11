@@ -43,8 +43,10 @@ nav {
     display: block;
     height: 50px;
     margin-bottom: 10px;
+    padding-top: 8px;
     
 } 
+
 
  nav img{
     border-radius: 50%;
@@ -63,6 +65,7 @@ nav a{
     color: white;
     
 }
+
 
 
 
@@ -143,6 +146,8 @@ form{
     margin-bottom: 20px;
 
 }
+
+
 .main-column button{
     background-color: lightskyblue;
     color: white;
@@ -327,3 +332,4 @@ label{
     display: block;
     text-align: start;
 }
+
