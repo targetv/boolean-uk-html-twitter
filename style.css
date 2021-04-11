@@ -190,17 +190,41 @@ form{
     grid-template-rows: 50px 1fr;
 }
 
-.right-column li{
+.right-column ul{
+
     background-color: rgb(238, 238, 238);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 10px;
     width: 100%;
+   
 
+}
+.right-column li{
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
 .right-column p{
     display: block;
 }
+.right-column h2{
+    margin-bottom: 20px;
+}
+.right-column hr {
+    margin-bottom: 10px;
+    
+}
+
+.news-live, .trending{
+    font-size: 0.8rem;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+
 
 .search input{
     position: relative;
