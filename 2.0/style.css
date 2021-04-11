@@ -36,6 +36,7 @@ main{
      grid-template-rows: 200px 1fr;
      border: 1px solid black;
 }
+
 /* Top Bar Of Main */
 
 .home-top-bar{
@@ -45,6 +46,7 @@ main{
     border: 1px solid black;
 
 }
+
 .home-top-bar p{
     text-align: end;
 }
@@ -54,12 +56,14 @@ main{
     display: grid;
     grid-template-rows: 50px 150px;
 }
+
 .create-tweet{
     display: grid;
     grid-template-columns: 70px 1fr;
     grid-template-rows: 1fr;
     
 }
+
 textarea{
     display: block;
     width: 100%;
@@ -69,9 +73,11 @@ textarea{
     color: gray;
     padding: 10px;
 }
+
 main li, ul {
     display: inline-block;
 }
+
 .text{
     display: grid;
     grid-template-rows: 100px 50px;
@@ -98,6 +104,7 @@ main ul{
     background-color: var(--twitter-color);
     color: white;
 }
+
 .create-tweet img{
      margin-left: 10px;
  }
@@ -139,6 +146,7 @@ main ul{
     margin-top: 5px;
 
 }
+
 .small-icon{
     width: 15px;
 }
@@ -151,6 +159,7 @@ main ul{
     box-shadow: 0px 0px 0px 7px pink;
     
 }
+
 .green:hover{
     fill: green;
     background-color: lightgreen;
@@ -158,6 +167,7 @@ main ul{
     border-radius: 50%;
     box-shadow: 0px 0px 0px 7px lightgreen;
 }
+
 .blue:hover{
     fill: blue;
     background-color: var(--twitter-color);
@@ -165,6 +175,7 @@ main ul{
     border-radius: 50%;
     box-shadow: 0px 0px 0px 7px var(--twitter-color);
 }
+
 .content-container span{
     font-size: 0.9rem;
     color: gray;
@@ -208,26 +219,11 @@ main ul{
     margin-top: 20px;
     background-color: lightgray;
 }
+
 .list-container-scroll{
     overflow: scroll;
     height: 1000px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Header section */
