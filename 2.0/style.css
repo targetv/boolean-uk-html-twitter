@@ -49,7 +49,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(199, 199, 199);
 
 }
 
@@ -61,7 +61,7 @@ main{
 .make-tweet{
     display: grid;
     grid-template-rows: 50px 150px;
-    border: 1px solid black;
+    border: 1px solid rgb(199, 199, 199);
 }
 
 .create-tweet{
@@ -123,14 +123,14 @@ main ul{
     display: grid;
     grid-template-columns: 100px 1fr;
     padding: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
     
 }
 .tweets-list{
     overflow: scroll;
     height: 850px;
-    border: 1px solid black;
+    border: 1px solid rgb(199, 199, 199);
 }
 
 .small-icons{
