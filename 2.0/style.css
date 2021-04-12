@@ -13,7 +13,7 @@ body{
     grid-template: 
     "header main" 1fr
     "footer main" 90px/
-    minmax(100px, 600px) minmax(300px, 1fr);
+    minmax(100px, 600px) minmax(600px, 1fr);
     width: 100vw;
     height: 100vh;
 }
@@ -28,15 +28,13 @@ body{
 main{
     grid-area: main;
     display: grid;
-    grid-template-columns: minmax(300px, 700px) minmax(0px, 1fr);
+    grid-template-columns: minmax(300px, 700px) minmax(0px, 300px);
 }
 @media screen and (max-width: 1500px){
    .right-column{
        visibility: hidden;
    }
-   main{
-       grid-template-columns: minmax(300px, 700px);
-   }
+  
 }
 
 .main-section{
@@ -249,8 +247,10 @@ nav{
  header ul{
     display: grid;
     grid-template-rows: auto;
-    justify-content: end;
+     justify-content: end; 
     grid-gap: 10px;
+    padding-right: 20px;
+    
    
 
     
@@ -268,18 +268,20 @@ nav{
 .top-nav{
     display: grid;
     grid-template-columns: 40px 1fr;
+    padding: 5px;
+    padding-left: 20px;
     align-items: center;
     text-decoration: none;
-    grid-gap: 10px;
+    grid-gap: 12px;
     color: black;
 
 }
 
 .top-nav:hover{
     background-color: lightskyblue;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 150px;
-    padding: 4px;
+
     
 
 }
