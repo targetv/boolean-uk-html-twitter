@@ -306,6 +306,12 @@ aside{
     fill:  var(--twitter-color);
     color: var(--twitter-color);
 }
+.icon-main{
+    margin-left: 290px;
+    width: 23px;
+    margin-top: 5px;
+    fill: var(--twitter-color);
+}
  #button-tweet{
     background-color: var(--twitter-color);
     text-align: center;
